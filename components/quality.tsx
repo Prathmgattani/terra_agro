@@ -5,7 +5,7 @@ import { qualityPoints } from '@/lib/site-data'
 
 export function Quality() {
   return (
-    <section id="quality" className="scroll-mt-20 py-24 lg:py-32">
+    <section id="quality" className="scroll-mt-20 py-24 lg:py-32" style='display:none'>
       <div className="mx-auto grid max-w-7xl items-center gap-14 px-5 sm:px-8 lg:grid-cols-2 lg:gap-20">
         <div>
           <Reveal>
