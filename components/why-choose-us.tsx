@@ -39,10 +39,10 @@ export function WhyChooseUs() {
                 className="group rounded-2xl border border-border bg-card p-7 transition-all duration-300 hover:border-brand-light/50 hover:shadow-lg"
               >
                 <div className="flex size-12 items-center justify-center rounded-xl bg-secondary text-primary transition-colors duration-300 group-hover:bg-primary group-hover:text-primary-foreground">
-                  <Icon className="size-6" aria-hidden="true" />
+                  <Icon className="size-9" aria-hidden="true" />
                 </div>
-                <h3 className="mt-5 font-display text-lg font-bold">{item.title}</h3>
-                <p className="mt-2 text-sm leading-relaxed text-muted-foreground">
+                <h3 className="mt-5 font-display text-[32px] font-bold">{item.title}</h3>
+                <p className="mt-2 text-[18px] leading-relaxed text-muted-foreground">
                   {item.description}
                 </p>
               </Reveal>

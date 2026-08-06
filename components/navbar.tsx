@@ -46,11 +46,11 @@ export function Navbar() {
           <span className="flex size-9 items-center justify-center rounded-xl bg-primary text-primary-foreground">
             <Leaf className="size-5" aria-hidden="true" />
           </span>
-          <span className="leading-none">
-            Terra Agro
-            <span className="block text-[0.65rem] font-medium tracking-[0.22em] text-brand-light uppercase">
+          <span className="leading-none" style={{ fontSize: "32px", fontWeight: "700" }}>
+            Terra Agro Food&apos;s
+           {/*  <span className="block text-[0.65rem] font-medium tracking-[0.22em] text-brand-light uppercase">
               Food&apos;s
-            </span>
+            </span> */}
           </span>
         </a>
 

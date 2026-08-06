@@ -4,7 +4,7 @@ export const company = {
   tagline: 'Premium Dehydrated Ingredients, Delivered Worldwide',
   location: 'Kannad, Chhatrapati Sambhajinagar (Aurangabad), Maharashtra, India',
   email: 'sales@terraagrofoods.com',
-  phone: '+91 98765 43210',
+  phone: '+91-9309544900 / +91-9028265150 ',
   whatsapp: '919876543210',
 }
 
@@ -13,8 +13,8 @@ export const navLinks = [
   { label: 'Products', href: '#products' },
   { label: 'Process', href: '#process' },
   { label: 'Industries', href: '#industries' },
-  { label: 'Quality', href: '#quality' },
-  { label: 'Gallery', href: '#gallery' },
+  // { label: 'Quality', href: '#quality' },
+  //{ label: 'Gallery', href: '#gallery' },
   { label: 'Contact', href: '#contact' },
 ]
 
@@ -47,35 +47,35 @@ export const products = [
   {
     name: 'Vegetable Powders',
     slug: 'vegetable-powders',
-    image: '/images/product-vegetable-powder.png',
+    image: '/images/vegetable_powder.png',
     description:
-      'Spinach, beetroot, tomato, garlic, onion and more — finely milled powders with vivid colour and concentrated flavour.',
+      'Tomato, Garlic, Onion, Ginger and more — finely milled powders with vivid colour and concentrated flavour.',
   },
   {
     name: 'Fruit Powders',
     slug: 'fruit-powders',
-    image: '/images/product-fruit-powder.png',
+    image: '/images/Fruit_powder.png',
     description:
       'Mango, banana, strawberry, pomegranate and lemon powders that preserve natural sweetness, aroma and nutrients.',
   },
   {
     name: 'Vegetable Flakes',
     slug: 'vegetable-flakes',
-    image: '/images/product-vegetable-flakes.png',
+    image: '/images/Vegetable_flask.png',
     description:
       'Dehydrated carrot, capsicum, onion and tomato flakes with excellent rehydration for soups, seasonings and ready meals.',
   },
   {
     name: 'Herbs',
     slug: 'herbs',
-    image: '/images/product-herbs.png',
+    image: '/images/Herbs.png',
     description:
       'Air-dried basil, mint, parsley, fenugreek and curry leaves that retain their essential oils and fresh character.',
   },
   {
     name: 'Spices',
     slug: 'spices',
-    image: '/images/product-spices.png',
+    image: '/images/spices.png',
     description:
       'Turmeric, chilli, cumin and coriander ground to precise specifications with controlled pungency and purity.',
   },
