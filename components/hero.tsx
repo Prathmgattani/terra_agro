@@ -63,7 +63,7 @@ export function Hero() {
         </div>
 
         {/* Floating statistics */}
-        <dl className="mt-16 grid max-w-4xl grid-cols-2 gap-px overflow-hidden rounded-2xl border border-white/15 bg-white/10 backdrop-blur-md lg:grid-cols-4">
+        {/* <dl className="mt-16 grid max-w-4xl grid-cols-2 gap-px overflow-hidden rounded-2xl border border-white/15 bg-white/10 backdrop-blur-md lg:grid-cols-4">
           {heroStats.map((stat) => (
             <div key={stat.label} className="bg-white/5 px-6 py-6">
               <dt className="sr-only">{stat.label}</dt>
@@ -73,7 +73,7 @@ export function Hero() {
               <p className="mt-1 text-sm text-white/70">{stat.label}</p>
             </div>
           ))}
-        </dl>
+        </dl> */}
       </div>
     </section>
   )

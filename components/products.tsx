@@ -16,12 +16,12 @@ export function Products() {
               A complete range of dehydrated ingredients
             </h2>
           </Reveal>
-          <Reveal delay={100}>
-            <p className="max-w-sm text-muted-foreground">
+          {/* <Reveal delay={100}>
+              <p className="max-w-sm text-muted-foreground">
               Every category is produced to precise, customer-defined specifications and available
               for bulk and OEM supply.
-            </p>
-          </Reveal>
+            </p>  
+          </Reveal> */}
         </div>
 
         <div className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
@@ -44,8 +44,8 @@ export function Products() {
                 <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
               </div>
               <div className="flex flex-1 flex-col p-6">
-                <h3 className="font-display text-xl font-bold">{product.name}</h3>
-                <p className="mt-3 flex-1 text-sm leading-relaxed text-muted-foreground">
+                <h3 className="font-display text-[32px]  font-bold">{product.name}</h3>
+                <p className="mt-3 flex-1 text-[18px] leading-relaxed text-muted-foreground">
                   {product.description}
                 </p>
                 <a

@@ -24,9 +24,9 @@ export default function Page() {
         <WhyChooseUs />
         <Process />
         <Industries />
-        <Quality />
-        <Certificates />
-        <Gallery />
+        {/* <Quality /> */}
+        {/* <Certificates /> */}
+        {/* <Gallery /> */}
         <Testimonials />
         <Faq />
         <Contact />
