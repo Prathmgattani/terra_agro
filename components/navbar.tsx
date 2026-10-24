@@ -37,7 +37,7 @@ export function Navbar() {
         aria-label="Primary"
       >
         <a
-          href="#home"
+          href="/#home"
           className={cn(
             'flex items-center gap-2.5 font-display text-lg font-extrabold tracking-tight transition-colors',
             scrolled ? 'text-foreground' : 'text-white',
@@ -74,7 +74,7 @@ export function Navbar() {
 
         <div className="flex items-center gap-3">
           <a
-            href="#contact"
+            href="/#contact"
             className="hidden rounded-full bg-primary px-5 py-2.5 text-sm font-semibold text-primary-foreground shadow-sm transition-all hover:bg-brand-light hover:shadow-md sm:inline-flex"
           >
             Request Quote
@@ -115,7 +115,7 @@ export function Navbar() {
           ))}
           <li className="mt-2">
             <a
-              href="#contact"
+              href="/#contact"
               onClick={() => setOpen(false)}
               className="block rounded-full bg-primary px-5 py-3 text-center text-base font-semibold text-primary-foreground"
             >

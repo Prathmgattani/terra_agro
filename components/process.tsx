@@ -1,5 +1,6 @@
 import { Reveal } from '@/components/reveal'
 import { processSteps } from '@/lib/site-data'
+import { ArrowRight } from 'lucide-react'
 
 export function Process() {
   return (
@@ -12,7 +13,7 @@ export function Process() {
           <span className="text-sm font-semibold tracking-[0.2em] text-lime uppercase">
             Manufacturing Process
           </span>
-          <h2 className="mt-4 font-display text-3xl leading-tight font-extrabold text-balance sm:text-4xl lg:text-[2.75rem]">
+          <h2 className="mt-4 font-display text-3xl leading-tight font-extrabold text-balance text-white sm:text-4xl lg:text-[2.75rem]">
             From farm-fresh produce to export-ready ingredients
           </h2>
           <p className="mt-5 text-lg text-white/70">
@@ -21,8 +22,8 @@ export function Process() {
           </p>
         </Reveal>
 
-        <ol className="relative mt-16 grid gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3">
-          {processSteps.map((step, i) => (
+        <ol className="relative mt-12 grid gap-x-6 gap-y-8 sm:grid-cols-2 lg:grid-cols-3">
+          {processSteps.slice(0, 3).map((step, i) => (
             <Reveal
               key={step.title}
               as="li"
@@ -38,6 +39,9 @@ export function Process() {
             </Reveal>
           ))}
         </ol>
+        <a href="/process" className="mt-10 inline-flex items-center gap-2 rounded-full border border-lime/40 px-5 py-3 text-sm font-semibold text-white transition-colors hover:bg-lime hover:text-[#0b2410]">
+          Discover Our Process <ArrowRight className="size-4" aria-hidden="true" />
+        </a>
       </div>
     </section>
   )

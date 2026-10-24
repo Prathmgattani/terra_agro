@@ -24,7 +24,7 @@ export function Footer() {
       <div className="mx-auto max-w-7xl px-5 py-16 sm:px-8">
         <div className="grid gap-12 lg:grid-cols-[1.4fr_1fr_1fr_1fr]">
           <div>
-            <a href="#home" className="flex items-center gap-2.5 font-display text-lg font-extrabold text-white">
+            <a href="/#home" className="flex items-center gap-2.5 font-display text-lg font-extrabold text-white">
               <span className="flex size-9 items-center justify-center rounded-xl bg-primary">
                 <Leaf className="size-5" aria-hidden="true" />
               </span>

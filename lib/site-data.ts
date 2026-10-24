@@ -4,18 +4,18 @@ export const company = {
   tagline: 'Premium Dehydrated Ingredients, Delivered Worldwide',
   location: 'Kannad, Chhatrapati Sambhajinagar (Aurangabad), Maharashtra, India',
   email: 'sales@terraagrofoods.com',
-  phone: '+91-9309544900 / +91-9028265150 ',
+  phone: '+91-9309544900 / +91-9028265150 / +91-9322810160',
   whatsapp: '919876543210',
 }
 
 export const navLinks = [
-  { label: 'About', href: '#about' },
-  { label: 'Products', href: '#products' },
-  { label: 'Process', href: '#process' },
-  { label: 'Industries', href: '#industries' },
+  { label: 'About', href: '/#about' },
+  { label: 'Products', href: '/#products' },
+  { label: 'Process', href: '/process' },
+  { label: 'Industries', href: '/#industries' },
   // { label: 'Quality', href: '#quality' },
   //{ label: 'Gallery', href: '#gallery' },
-  { label: 'Contact', href: '#contact' },
+  { label: 'Contact', href: '/#contact' },
 ]
 
 export const heroStats = [
@@ -118,13 +118,13 @@ export const whyChooseUs = [
 
 export const processSteps = [
   { title: 'Raw Material', description: 'Farm-fresh produce sourced from trusted growers.' },
-  { title: 'Sorting', description: 'Manual and optical grading to remove foreign matter.' },
-  { title: 'Cleaning', description: 'Multi-stage washing for hygiene and purity.' },
-  { title: 'Cutting', description: 'Precision slicing for uniform drying.' },
-  { title: 'Dehydration', description: 'Controlled low-temperature moisture removal.' },
-  { title: 'Grinding', description: 'Milling to the exact mesh and particle size.' },
-  { title: 'Quality Inspection', description: 'Laboratory testing against specifications.' },
-  { title: 'Packaging', description: 'Food-grade, moisture-proof export packaging.' },
+  { title: 'Sorting', description: 'Manual and optical grading to remove unsuitable produce and foreign matter.' },
+  { title: 'Cleaning', description: 'Multi-stage washing to support hygiene and product purity.' },
+  { title: 'Cutting', description: 'Cutting or slicing produce into suitable sizes for consistent processing.' },
+  { title: 'Dehydration', description: 'Controlled heat pump drying to remove moisture under managed temperature and humidity conditions.' },
+  { title: 'Grinding', description: 'Grinding dried ingredients into the required powder or particle size, where applicable.' },
+  { title: 'Quality Inspection', description: 'Inspecting relevant product quality parameters before packing.' },
+  { title: 'Packaging', description: 'Packing finished ingredients in suitable packaging to protect product quality during storage and transport.' },
   { title: 'Dispatch', description: 'Documented, on-time global shipping.' },
 ]
 
